@@ -3,7 +3,7 @@
 #Kindly change the IP address and kubeadm init output of join token in this script.
 # Script to install a single node K8s cluster
 #
-# Usage:  $ curl https://raw.githubusercontent.com/BalajiSankarCircana/K8-Cluster/main/Masternodes.sh | s
+# Usage:  $ curl https://raw.githubusercontent.com/BalajiSankarCircana/K8-Cluster/main/Masternodes.sh | sh
 
 ### Disable SELINUX ####
 
@@ -12,6 +12,12 @@ sed -i --follow-symlinks 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig
 cat /etc/sysconfig/selinux | grep SELINUX=
 setenforce 0
 ######################
+
+###Installing Helm####
+
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
 
 
 ### Make DNS local entries ### Change it as per your requirement #####

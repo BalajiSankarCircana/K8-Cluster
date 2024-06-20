@@ -3,7 +3,7 @@
 #Kindly change the IP address and kubeadm init output of join token in this script.
 # Script to install a single node K8s cluster
 #
-# Usage:  $ curl https://raw.githubusercontent.com/BalajiSankarCircana/master/Workernodes.sh | sh
+# Usage:  $ curl https://raw.githubusercontent.com/BalajiSankarCircana/K8-Cluster/main/Workernodes.sh | sh
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo -e "\033[44m###Kubernetes installation Preparation ###\033[m"

@@ -5,7 +5,7 @@
 #
 # Usage:  $ curl https://raw.githubusercontent.com/BalajiSankarCircana/K8-Cluster/main/Workernodes.sh | sh
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 echo -e "\033[44m###Kubernetes installation Preparation ###\033[m"
 RAM=`cat /proc/meminfo | grep MemTotal | awk '{print ($2 / 1024) / 1024 ,"GiB"}'`
 CPU=`cat /proc/cpuinfo | grep processor`

@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #Kindly change the IP address and kubeadm init output of join token in this script.
-# Script to install a single node K8s cluster on an RX-M Lab VM
+# Script to install a single node K8s cluster
 #
 # Usage:  $ curl https://raw.githubusercontent.com/BalajiSankarCircana/master/Workernodes.sh | sh
 

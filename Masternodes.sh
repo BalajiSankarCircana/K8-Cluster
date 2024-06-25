@@ -23,9 +23,8 @@ chmod 700 get_helm.sh
 ### Make DNS local entries ### Change it as per your requirement #####
 cat <<EOF>>  /etc/hosts
 
-192.168.1.31  master1
-192.168.1.32  workernode1
-192.168.1.33  workernode2
+10.36.11.76  master1
+10.36.11.84  workernode1
 EOF
 ######################
 

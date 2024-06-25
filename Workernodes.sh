@@ -32,16 +32,14 @@ setenforce 0
 echo -e "\033[44m###Make DNS local entries - Change it as per your requirement ###\033[m"
 cat <<EOF>>  /etc/hosts
 
-192.168.1.31  master1
-192.168.1.32  workernode1
-192.168.1.33  workernode2
+10.36.11.76  master1
+10.36.11.84  workernode1
 EOF
 ######################
 
 echo -e "\033[44m###Check the connectivity of your cluster nodes ###\033[m"
 ping -c 2 master1
 ping -c 2 workernode1
-ping -c 2 workernode2
 ######################
 
 sleep 10 

@@ -30,7 +30,6 @@ EOF
 
 ### Check the connectivity of your cluster nodes #########
 ping -c 2 workernode1
-ping -c 2 workernode2
 ######################
 
 
